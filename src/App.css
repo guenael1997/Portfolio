@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body{
+  background-image: url("../public/images/fond\ d\'écran2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'EB Garamond', serif;
+  font-size: 150%;
+  
+}
+
+.introBg {
+  padding: 20%;
+  background-color: rgba(0, 0, 0, 0.685);
+  color:white
+}
+
+
+
+.matricielle{
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.matricielle h1 {
+  color: white;
+}
+
+.vectoriel{
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.vectoriel h1 {
+  color: white;
+}
+
+.imgCard{
+  width: 50%;
+}
+.player h2 {
+  font-size: 300%;
+}
+
+audio {
+  width: 100%;
+  padding: auto;
+}
+
+#musicButton {
+  color: white;
+  transition: 2s;
+}
+
+#musicButton:hover{
+  color:black;
+  background-color: white;
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.prog {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.prog h2 {
+  font-weight: bold;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.contact h1{
+  color: white;
+}
+.contact h2 {
+  color:white
+}
+.contact h3{
+  color: white;
+}
+
+.contact label {
+  color: white;
+}
+
+.contact input {
+  font-size: 100%;
+}
+
+.contact textarea {
+  font-size: 100%;
+}
+
+.musiques {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.musiques h1 {
+  color: white;
+}
