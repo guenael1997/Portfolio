@@ -17,7 +17,7 @@ const Musiques = [
     },
     {
         titre:"Grey's Castle",
-        url:"Musiques/Grey's Castle.mp3"
+        url:"Musiques/Grey Castle.mp3"
     },
     {
         titre:"The Shining Hope",
@@ -25,7 +25,7 @@ const Musiques = [
     },
     {
         titre:"To You, My Dear Hope",
-        url:"Musiques/To Your,My Dear Hope.mp3"
+        url:"Musiques/To You,My Dear Hope.mp3"
     },
     {
         titre:"Ruby's King",
@@ -37,7 +37,7 @@ const Musiques = [
     },
     {
         titre:"The Lightning Shield Lulaby",
-        url:"Musiques/The Lightning Shield Lulaby.mp3"
+        url:"Musiques/The Lighting Shield Lulaby.mp3"
     },
     {
         titre:"The Lightning Shield Will Rise Again",

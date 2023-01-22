@@ -15,7 +15,7 @@ function Programation(){
             <div className="row py-4">
                 <div className="col-lg-6 my-auto">
                     <h2> Developpement web </h2>
-                    <p> Ce site a principalement été réalisé avec react. Vous retrouverez le code source de ce dernier en suivant ce lien</p>
+                    <p> Ce site a principalement été réalisé avec react. Vous retrouverez le code source de ce dernier en suivant ce <a href="https://github.com/guenael1997/Portfolio">lien</a></p>
                     <p> Par ailleurs, voici le lien d'une autre de mes réalisations : un site web pour une pharmacie. Ce dernier a été réalisé avec vueJs pour la partie front-end et avec nodeJs pour la partie back-end.</p>
                 </div>
                 <div className="col-lg-6">
