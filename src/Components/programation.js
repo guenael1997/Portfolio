@@ -12,11 +12,12 @@ function Programation(){
     const prog =
     <div className="prog">
         <div className="container py-4 bg-light bg-opacity-75 rounded-5">
+            <h1 className="text-center">Programation</h1>
             <div className="row py-4">
                 <div className="col-lg-6 my-auto">
                     <h2> Developpement web </h2>
                     <p> Ce site a principalement été réalisé avec react. Vous retrouverez le code source de ce dernier en suivant ce <a href="https://github.com/guenael1997/Portfolio">lien</a></p>
-                    <p> Par ailleurs, voici le lien d'une autre de mes réalisations : un site web pour une pharmacie. Ce dernier a été réalisé avec vueJs pour la partie front-end et avec nodeJs pour la partie back-end.</p>
+                    <p> Par ailleurs, voici le <a href="https://github.com/guenael1997/PharmacieFidele">lien</a> d'une autre de mes réalisations : un site web pour une pharmacie. Ce dernier a été réalisé avec vueJs pour la partie front-end et avec nodeJs pour la partie back-end.</p>
                 </div>
                 <div className="col-lg-6">
                 <Carousel>
@@ -25,6 +26,7 @@ function Programation(){
                         className="img-fluid rounded-4"
                         src={images[0]}
                         alt="First slide"
+                        onClick={()=>{window.open(images[0])}}
                         />
                         
                     </Carousel.Item>
@@ -33,6 +35,7 @@ function Programation(){
                         className="img-fluid rounded-4"
                         src={images[1]}
                         alt="Second slide"
+                        onClick={()=>{window.open(images[1])}}
                         />
 
                         
@@ -42,6 +45,7 @@ function Programation(){
                         className="img-fluid rounded-4"
                         src={images[2]}
                         alt="Third slide"
+                        onClick={()=>{window.open(images[2])}}
                         />
 
                         
@@ -51,6 +55,7 @@ function Programation(){
                         className="img-fluid rounded-4"
                         src={images[3]}
                         alt="Third slide"
+                        onClick={()=>{window.open(images[3])}}
                         />
                     </Carousel.Item>
                 </Carousel>

@@ -22,7 +22,7 @@ function Musiques () {
                     musiques.map((e,i)=>
                     <div class="col-lg-3 rounded mx-auto my-auto  p-4" id="musicButton" style={{"--bs-bg-opacity": .9}}>
                         <div onClick={()=>SetActiveMusique(e)}>
-                            <h5 class="card-title">{e.titre}</h5>
+                            <h2 class="card-title">{e.titre}</h2>
                         </div>
                     </div>
                     )
